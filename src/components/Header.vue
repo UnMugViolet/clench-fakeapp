@@ -5,7 +5,7 @@ import Button from '@/components/ui/button/Button.vue';
 
 
 <template>
-  <header class="flex w-full justify-between px-12 py-6">
+  <header class="flex w-full justify-between px-16 py-8">
     <div class="inline-flex gap-4">
       <router-link to="/">
         <img src="@/assets/icones/logo.svg" alt="Vue logo" class="logo" width="125" height="125" />
