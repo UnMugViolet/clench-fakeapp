@@ -42,11 +42,11 @@ const router = createRouter({
     //   name: 'project',
     //   component: () => import('../views/ProjectIdView.vue')
     // },
-    // {
-    //   path: '/evenement',
-    //   name: 'event',
-    //   component: () => import('../views/EventView.vue')
-    // }
+     {
+       path: '/evenement',
+       name: 'event',
+       component: () => import('../views/EventView.vue')
+     }
     // {
     //   path: '/evenement/:id',
     //   name: 'event',
