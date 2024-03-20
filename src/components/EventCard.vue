@@ -8,7 +8,7 @@
                 <img src="@/assets/icones/calendar.svg" alt="">
                 <p class="text-gray-500 text-base">Joined Mars 2024</p>
             </div>
-            <div class="flex gap-4">
+            <div class="flex gap-4 mt-4">
                 <ThinMainButton text-button="Découvrir"/>
                 <ThinMainButton text-button="Résevation"/>
             </div>
