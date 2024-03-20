@@ -1,6 +1,16 @@
+<script setup>
+    import HeroText from "@/components/HeroText.vue";
+    import EventContainerCard from "@/components/EventContainerCard.vue";
+</script>
+
 <template>
   <div class="flex flex-col 2xl:items-center px-24">
-    <Hero />
+    <HeroText 
+      emoji="🍾"
+      subtitle="L’application qui facilite votre vie éstudiantine"
+      title="Vivez au rythme de votre Campus"
+      description="Explorez la vie de votre campus d'une manière totalement nouvelle grâce à une expérience unique et immersive."
+    />
     <div class="flex flex-col gap-10">
       <EventContainerCard title-event="Les évènements à venir"/>
       <EventContainerCard title-event="Les évènements passés"/>
@@ -8,10 +18,6 @@
   </div>
 </template>
   
-<script setup>
-    import Hero from "@/components/Hero.vue";
-    import EventContainerCard from "@/components/EventContainerCard.vue";
-</script>
 
 <style>
 
