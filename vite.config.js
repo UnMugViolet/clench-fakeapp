@@ -1,4 +1,5 @@
 import { fileURLToPath, URL } from 'node:url'
+import VueDevTools from 'vite-plugin-vue-devtools'
 
 import path from "path"
 import vue from "@vitejs/plugin-vue"
@@ -13,7 +14,10 @@ export default defineConfig({
       plugins: [tailwind(), autoprefixer()],
     },
   },
-  plugins: [vue()],
+  plugins: [
+    VueDevTools(),
+    vue(),
+  ],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
