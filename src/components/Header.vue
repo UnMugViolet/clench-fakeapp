@@ -15,9 +15,6 @@ import Button from '@/components/ui/button/Button.vue';
                 <router-link to="/projets">Projets</router-link>
             </Button>
             <Button variant="link">
-                <router-link to="/a-propos">A propos</router-link>
-            </Button>
-            <Button variant="link">
                 <router-link to="/evenement">Evenements</router-link>
             </Button>
             <Button variant="link">

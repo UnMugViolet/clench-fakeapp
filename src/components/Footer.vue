@@ -27,7 +27,7 @@
             <div class="flex flex-col gap-4">
                 <h4 class="text-2xl font-semibold">Inscrivez vous à notre Newsletter !</h4>
                 <div class="flex items-center gap-4">
-                    <Input id="email" type="email" placeholder="Email" class="bg-white"/>
+                    <Input id="email" type="email" placeholder="Email" class="bg-white text-zinc-500"/>
                     <Button type="submit" variant="outline" class="px-6">
                         S'inscrire
                     </Button>
