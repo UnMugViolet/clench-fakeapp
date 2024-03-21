@@ -15,17 +15,17 @@ import Button from '@/components/ui/button/Button.vue';
                 <router-link to="/projets">Projets</router-link>
             </Button>
             <Button variant="link">
-                <router-link to="/evenement">Evenements</router-link>
+                <router-link to="/evenements">Evenements</router-link>
             </Button>
             <Button variant="link">
-                <router-link to="/contact">Nous rejoindre</router-link>
+                <router-link to="/rejoindre">Nous rejoindre</router-link>
             </Button>
         </nav>
     </div>
 
-    <div class="flex items-center gap-2">
-      <p>Contact</p>
+    <router-link to="/login" class="flex items-center gap-2 text-white ">
+      <p>Compte</p>
       <img src="@/assets/icones/user.svg" alt="User Icon" class="w-10 h-10" />
-    </div>
+    </router-link>
   </header>
 </template>

@@ -29,7 +29,9 @@
                 <div class="flex items-center gap-4">
                     <Input id="email" type="email" placeholder="Email" class="bg-white text-zinc-500"/>
                     <Button type="submit" variant="outline" class="px-6">
-                        S'inscrire
+                        <router-link to="/signup">
+                            S'inscrire
+                        </router-link>
                     </Button>
                 </div>
             </div>
