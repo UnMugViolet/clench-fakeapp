@@ -7,6 +7,8 @@
   import CarouselNext from "@/components/ui/carousel/CarouselNext.vue";
   import Button from "@/components/ui/button/Button.vue";
   import ProjectCard from "@/components/Homepage/ProjectsCard.vue";
+  import Autoplay from 'embla-carousel-autoplay'
+
 
   import events from "@/data/events.json";
 
@@ -25,7 +27,15 @@
   <h2 class="text-3xl font-semibold mb-11">Prochains événements</h2>
   <div class="flex w-full gap-20">
     <div class="w-1/2">
-      <Carousel>
+      <Carousel
+        :opts="{
+          align: 'start',
+          loop: true,
+        }"
+        :plugins="[Autoplay({
+          delay: 3000,
+        })]"
+      >
         <CarouselContent>
           <CarouselItem v-for="(item, index) in sortedItems" :key="index">
             <ProjectCard 
