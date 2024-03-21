@@ -1,19 +1,34 @@
-
+<script setup>
 import router from '@/router';
+import Button from '@/components/ui/button/Button.vue';
+</script>
+
+
 <template>
-  <header class="absolute flex w-full justify-between p-12">
-    <div>
+  <header class="flex w-full justify-between px-16 py-8">
+    <div class="inline-flex gap-4">
       <router-link to="/">
-        <img src="@/assets/logo.svg" alt="Vue logo" class="logo" width="125" height="125" />
+        <img src="@/assets/icones/logo.svg" alt="Vue logo" class="logo" width="125" height="125" />
       </router-link>
+      <nav class="flex gap-1">
+            <Button variant="link">
+                <router-link to="/projets">Projets</router-link>
+            </Button>
+            <Button variant="link">
+                <router-link to="/a-propos">A propos</router-link>
+            </Button>
+            <Button variant="link">
+                <router-link to="/evenement">Evenements</router-link>
+            </Button>
+            <Button variant="link">
+                <router-link to="/contact">Nous rejoindre</router-link>
+            </Button>
+        </nav>
     </div>
-    <nav class="flex gap-2">
-      <router-link to="/a-propos">A propos</router-link>
-      <router-link to="/contact">Nous contacter</router-link>
-    </nav>
-    <div class="flex items-center gap-1">
+
+    <div class="flex items-center gap-2">
       <p>Contact</p>
-      <img src="@/assets/user.svg" alt="User Icon" class="w-10 h-10" />
+      <img src="@/assets/icones/user.svg" alt="User Icon" class="w-10 h-10" />
     </div>
   </header>
 </template>
