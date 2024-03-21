@@ -87,6 +87,9 @@ module.exports = {
         "collapsible-down": "collapsible-down 0.2s ease-in-out",
         "collapsible-up": "collapsible-up 0.2s ease-in-out",
       },
+      height: {
+        '45dvh': '45dvh',
+      },
     },
   },
   plugins: [animate],
