@@ -5,7 +5,7 @@
 
 </script>
 <template>
-    <footer class="flex flex-col w-full px-16 pb-4 pt-12 gap-8">
+    <footer class="flex flex-col w-full px-16 pb-4 pt-28 gap-8">
         <div class="">
             <router-link to="/">
                 <img src="@/assets/icones/logo.svg" alt="Vue logo" width="175" height="175" />
