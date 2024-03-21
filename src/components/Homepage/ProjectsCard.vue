@@ -6,7 +6,7 @@
       <p class="mb-1">{{description}}</p>
       <router-link :to="urlEvent" class="flex gap-2">
         <img src="/src/assets/icones/calendar.svg" alt="calendar-icon" />
-        <p class="text-slate-400">Prévu en {{ date }}</p>
+        <p class="text-zinc-500">Prévu en {{ date }}</p>
       </router-link>
     </div>
   </div>
