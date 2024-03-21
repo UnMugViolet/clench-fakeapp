@@ -7,9 +7,11 @@ import router from '@/router';
         <img src="@/assets/logo.svg" alt="Vue logo" class="logo" width="125" height="125" />
       </router-link>
     </div>
-    <nav class="flex gap-2">
-      <router-link to="/a-propos">A propos</router-link>
-      <router-link to="/contact">Nous contacter</router-link>
+    <nav class="flex gap-6">
+      <router-link to="/a-propos" class="border-b border-transparent transition duration-300 border-white hover:border-white">A propos</router-link>
+      <router-link to="/evenement" class="border-b border-transparent transition duration-300 border-white hover:border-white">Evenements</router-link>
+      <router-link to="/contact" class="border-b border-transparent transition duration-300 border-white hover:border-white">Nous contacter</router-link>
+      <Button variant="outline">Button</Button>
     </nav>
     <div class="flex items-center gap-1">
       <p>Contact</p>
@@ -17,3 +19,9 @@ import router from '@/router';
     </div>
   </header>
 </template>
+
+<script>
+import { Button } from "@/components/ui/button"
+
+
+</script>
