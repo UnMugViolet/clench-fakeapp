@@ -1,91 +1,99 @@
 [
   {
     "id": 1,
-    "projectTitle": "Project 1",
-    "projectDescription": "This is project 1",
-    "projectImages": [
-      "@/assets/images/mockup1.jpg",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150"
+    "title": "Project 1",
+    "description": "This is project 1",
+    "images": [
+      "/src/assets/images/mockup1.jpg",
+      "https:/via.placeholder.com/150",
+      "https:/via.placeholder.com/150"
     ],
-    "thumbnail": "@/assets/images/mockup1.jpg"
+    "gridPosition": "col-start-1 col-end-2 row-start-1 row-end-6",
+    "thumbnail": "/src/assets/images/mockup1.jpg"
   },
   {
     "id": 2,
-    "projectTitle": "Project 2",
-    "projectDescription": "This is project 2",
-    "projectImages": [
-      "@/assets/images/mockup2.jpg",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150"
+    "title": "Project 2",
+    "description": "This is project 2",
+    "images": [
+      "/src/assets/images/mockup2.jpg",
+      "https:/via.placeholder.com/150",
+      "https:/via.placeholder.com/150"
     ],
-    "thumbnail": "@/assets/images/mockup2.jpg"
+    "gridPosition": "col-start-1 col-end-2 row-start-6 row-end-10",
+    "thumbnail": "/src/assets/images/mockup2.jpg"
   },
   {
     "id": 3,
-    "projectTitle": "Project 3",
-    "projectDescription": "This is project 3",
-    "projectImages": [
-      "@/assets/images/website-mockup.png",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150"
+    "title": "Project 3",
+    "description": "This is project 3",
+    "images": [
+      "/src/assets/images/website-mockup.png",
+      "https:/via.placeholder.com/150",
+      "https:/via.placeholder.com/150"
     ],
-    "thumbnail": "@/assets/images/website-mockup.png"
+    "gridPosition": "col-start-1 col-end-3 row-start-10 row-end-13",
+    "thumbnail": "/src/assets/images/website-mockup.png"
   },
   {
     "id": 4,
-    "projectTitle": "Project 4",
-    "projectDescription": "This is project 4",
-    "projectImages": [
-      "@/assets/images/archi-affiche.jpg",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150"
+    "title": "Project 4",
+    "description": "This is project 4",
+    "images": [
+      "/src/assets/images/archi-affiche.jpg",
+      "https:/via.placeholder.com/150",
+      "https:/via.placeholder.com/150"
     ],
-    "thumbnail": "@/assets/images/archi-affiche.jpg"
+    "gridPosition": "col-start-2 col-end-3 row-start-5 row-end-10",
+    "thumbnail": "/src/assets/images/archi-affiche.jpg"
   },
   {
     "id": 5,
-    "projectTitle": "Project 5",
-    "projectDescription": "This is project 5",
-    "projectImages": [
-      "@/assets/images/website-bread.jpg",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150"
+    "title": "Project 5",
+    "description": "This is project 5",
+    "images": [
+      "/src/assets/images/website-bread.jpg",
+      "https:/via.placeholder.com/150",
+      "https:/via.placeholder.com/150"
     ],
-    "thumbnail": "@/assets/images/website-bread.jpg"
+    "gridPosition": "col-start-2 col-end-4 row-start-1 row-end-5",
+    "thumbnail": "/src/assets/images/website-bread.jpg"
   },
   {
     "id": 6,
-    "projectTitle": "Project 6",
-    "projectDescription": "This is project 6",
-    "projectImages": [
-      "@/assets/images/nft-banner.jpg",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150"
+    "title": "Project 6",
+    "description": "This is project 6",
+    "images": [
+      "/src/assets/images/nft-banner.jpg",
+      "https:/via.placeholder.com/150",
+      "https:/via.placeholder.com/150"
     ],
-    "thumbnail": "@/assets/images/nft-banner.jpg"
+    "gridPosition": "col-start-3 col-end-5 row-start-9 row-end-13",
+    "thumbnail": "/src/assets/images/nft-banner.jpg"
   },
   {
     "id": 7,
-    "projectTitle": "Project 7",
-    "projectDescription": "This is project 7",
-    "projectImages": [
-      "@/assets/images/festival-env-affiche.jpg",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150"
+    "title": "Project 7",
+    "description": "This is project 7",
+    "images": [
+      "/src/assets/images/festival-env-affiche.jpg",
+      "https:/via.placeholder.com/150",
+      "https:/via.placeholder.com/150"
     ],
-    "thumbnail": "@/assets/images/festival-env-affiche.jpg"
+    "gridPosition": "col-start-3 col-end-4 row-start-5 row-end-9",
+    "thumbnail": "/src/assets/images/festival-env-affiche.jpg"
   },
   {
     "id": 8,
-    "projectTitle": "Project 8",
-    "projectDescription": "This is project 8",
-    "projectImages": [
-      "@/assets/images/nuit-numerique-affiche.jpg",
-      "https://via.placeholder.com/150",
-      "https://via.placeholder.com/150"
+    "title": "Project 8",
+    "description": "This is project 8",
+    "images": [
+      "/src/assets/images/nuit-numerique-affiche.jpg",
+      "https:/via.placeholder.com/150",
+      "https:/via.placeholder.com/150"
     ],
-    "thumbnail": "@/assets/images/nuit-numerique-affiche.jpg"
+    "gridPosition": "col-start-4 col-end-5 row-start-1 row-end-9",
+    "thumbnail": "/src/assets/images/nuit-numerique-affiche.jpg"
   }
 
 ]
