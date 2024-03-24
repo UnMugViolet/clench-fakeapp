@@ -44,7 +44,7 @@ const closeModal = () => {
       <div class="w-full md:w-1/2 overflow-y-scroll scroll">
         <img v-for="(image, index) in currentProject.images" :key="index" :src="image" alt="Project Image" class="w-full">
       </div>
-      <div class="w-full md:w-1/2 relative overflow-auto">
+      <div class="w-full md:w-1/2 relative overflow-auto scrollbar-thin">
         <button 
           @click="closeModal" 
           class="absolute top-0 right-0 p-5 text-black text-2xl transition-colors duration-200 hover:text-zinc-800 ">
