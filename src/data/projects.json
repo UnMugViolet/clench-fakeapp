@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Project 1",
-    "description": "This is project 1",
+    "description": "<br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br/> <h3 class=\"text-3xl font-semibold\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <br/> <h3 class=\"text-3xl font-semibold mb-3 mt-2\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
     "images": [
       "/src/assets/images/mockup1.jpg",
       "https:/via.placeholder.com/150",
@@ -14,7 +14,7 @@
   {
     "id": 2,
     "title": "Project 2",
-    "description": "This is project 2",
+    "description": "<br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br/> <h3 class=\"text-3xl font-semibold\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <br/> <h3 class=\"text-3xl font-semibold mb-3 mt-2\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
     "images": [
       "/src/assets/images/mockup2.jpg",
       "https:/via.placeholder.com/150",
@@ -26,7 +26,7 @@
   {
     "id": 3,
     "title": "Project 3",
-    "description": "This is project 3",
+    "description": "<br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br/> <h3 class=\"text-3xl font-semibold\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <br/> <h3 class=\"text-3xl font-semibold mb-3 mt-2\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
     "images": [
       "/src/assets/images/website-mockup.png",
       "https:/via.placeholder.com/150",
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "title": "Project 4",
-    "description": "This is project 4",
+    "description": "<br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br/> <h3 class=\"text-3xl font-semibold\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <br/> <h3 class=\"text-3xl font-semibold mb-3 mt-2\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
     "images": [
       "/src/assets/images/archi-affiche.jpg",
       "https:/via.placeholder.com/150",
@@ -50,7 +50,7 @@
   {
     "id": 5,
     "title": "Project 5",
-    "description": "This is project 5",
+    "description": "<br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br/> <h3 class=\"text-3xl font-semibold\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <br/> <h3 class=\"text-3xl font-semibold mb-3 mt-2\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
     "images": [
       "/src/assets/images/website-bread.jpg",
       "https:/via.placeholder.com/150",
@@ -62,7 +62,7 @@
   {
     "id": 6,
     "title": "Project 6",
-    "description": "This is project 6",
+    "description": "<br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br/> <h3 class=\"text-3xl font-semibold\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <br/> <h3 class=\"text-3xl font-semibold mb-3 mt-2\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
     "images": [
       "/src/assets/images/nft-banner.jpg",
       "https:/via.placeholder.com/150",
@@ -74,7 +74,7 @@
   {
     "id": 7,
     "title": "Project 7",
-    "description": "This is project 7",
+    "description": "<br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br/> <h3 class=\"text-3xl font-semibold\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <br/> <h3 class=\"text-3xl font-semibold mb-3 mt-2\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
     "images": [
       "/src/assets/images/festival-env-affiche.jpg",
       "https:/via.placeholder.com/150",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "title": "Project 8",
-    "description": "This is project 8",
+    "description": "<br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> <br/> <h3 class=\"text-3xl font-semibold\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <br/> <h3 class=\"text-3xl font-semibold mb-3 mt-2\">Lorem Ipsum blabla</h3> <br/> <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>",
     "images": [
       "/src/assets/images/nuit-numerique-affiche.jpg",
       "https:/via.placeholder.com/150",
@@ -95,5 +95,4 @@
     "gridPosition": "col-start-4 col-end-5 row-start-1 row-end-9",
     "thumbnail": "/src/assets/images/nuit-numerique-affiche.jpg"
   }
-
 ]
