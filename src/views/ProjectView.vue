@@ -44,15 +44,15 @@ const closeModal = () => {
       <div class="w-full md:w-1/2 overflow-y-scroll scroll">
         <img v-for="(image, index) in currentProject.images" :key="index" :src="image" alt="Project Image" class="w-full">
       </div>
-      <div class="w-full md:w-1/2 relative">
+      <div class="w-full md:w-1/2 relative overflow-auto">
         <button 
           @click="closeModal" 
           class="absolute top-0 right-0 p-5 text-black text-2xl transition-colors duration-200 hover:text-zinc-800 ">
             &#10005;
         </button>
-        <div class="py-10 px-8">
-          <h2 class="text-black">{{ currentProject.title }}</h2>
-          <p class="text-black">{{ currentProject.description }}</p>
+        <div class="py-14 px-8">
+          <h2 class="text-black text-4xl font-semibold">{{ currentProject.title }}</h2>
+          <div class="text-black" v-html="currentProject.description"></div>
         </div>
       </div>
     </div>
