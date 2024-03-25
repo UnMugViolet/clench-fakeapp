@@ -46,4 +46,12 @@
       </div>
     </form>
   </section>
+  <div class="flex justify-center items-center gap-1">
+    <p class="text-sm md:text-base mb-0.75">Vous avez déjà un compte ?</p>
+    <router-link to="/login">
+      <Button variant="link" to="/login" class="px-1">
+        Se connecter
+      </Button>
+    </router-link>
+  </div>
 </template>
