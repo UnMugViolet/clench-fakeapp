@@ -21,19 +21,20 @@ onMounted(() => {
         <img src="@/assets/icones/burger-menu.svg" alt="Menu Icon" class="w-8 h-8" />
       </button>
       <transition name="slide" mode="out-in">
-        <nav v-if="showNav" class="fixed bg-black inset-0 transform md:translate-x-0 md:static flex flex-col md:flex-row gap-4 py-3 md:gap-1 md:py-0 md:bg-transparent md:w-full justify-center md:justify-start">            <div class="absolute md:hidden top-0 right-0 p-6">
+        <nav v-if="showNav" class="fixed bg-black inset-0 transform md:translate-x-0 md:static flex flex-col md:flex-row gap-4 py-3 md:gap-1 md:py-0 md:bg-transparent md:w-full justify-center md:justify-start z-50">            
+            <div class="absolute md:hidden top-0 right-0 p-6">
               <img src="@/assets/icones/cross.svg" alt="Close Icon" class="w-5 h-5" @click="showNav = false" />
             </div>
-            <Button variant="link">
+            <Button @click="showNav = !showNav" variant="link">
                 <router-link to="/projets">Projets</router-link>
             </Button>
-            <Button variant="link">
+            <Button @click="showNav = !showNav" variant="link">
                 <router-link to="/evenements">Evenements</router-link>
             </Button>
-            <Button variant="link">
+            <Button @click="showNav = !showNav" variant="link">
                 <router-link to="/rejoindre">Nous rejoindre</router-link>
             </Button>
-            <router-link to="/login" class="flex items-center justify-center md:justify-end gap-2 text-white md:hidden">
+            <router-link to="/login" @click="showNav = !showNav"  class="flex items-center justify-center md:justify-end gap-2 text-white md:hidden">
               <p>Compte</p>
               <img src="@/assets/icones/user.svg" alt="User Icon" class="w-8 h-8 xl:w-10 xl:h-10" />
             </router-link>
