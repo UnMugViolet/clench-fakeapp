@@ -1,15 +1,111 @@
+const animate = require("tailwindcss-animate")
+
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
+  darkMode: ["class"],
+  safelist: ["dark"],
+  prefix: "",
+  
   content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    './pages/**/*.{js,jsx,vue}',
+    './components/**/*.{js,jsx,vue}',
+    './app/**/*.{js,jsx,vue}',
+    './src/**/*.{js,jsx,vue}',
+	],
+
+  safelist: [
+    'dark',
+    'col-start-1', 'col-end-2', 'row-start-1', 'row-end-6',
+    'col-start-1', 'col-end-2', 'row-start-6', 'row-end-10',
+    'col-start-1', 'col-end-3', 'row-start-10', 'row-end-13',
+    'col-start-2', 'col-end-3', 'row-start-5', 'row-end-10',
+    'col-start-2', 'col-end-4', 'row-start-1', 'row-end-5',
+    'col-start-3', 'col-end-5', 'row-start-9', 'row-end-13',
+    'col-start-3', 'col-end-4', 'row-start-5', 'row-end-9',
+    'col-start-4', 'col-end-5', 'row-start-1', 'row-end-9',
   ],
+  
   theme: {
+    container: {
+      center: true,
+      padding: "2rem",
+      screens: {
+        "2xl": "1400px",
+      },
+    },
     extend: {
       colors: {
-        'main-black': '#09090B',
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        background: "hsl(var(--background))",
+        foreground: "hsl(var(--foreground))",
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+      },
+      borderRadius: {
+      	xl: "calc(var(--radius) + 4px)",
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
+      keyframes: {
+        "accordion-down": {
+          from: { height: 0 },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        "accordion-up": {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: 0 },
+        },
+        "collapsible-down": {
+          from: { height: 0 },
+          to: { height: 'var(--radix-collapsible-content-height)' },
+        },
+        "collapsible-up": {
+          from: { height: 'var(--radix-collapsible-content-height)' },
+          to: { height: 0 },
+        },
+      },
+      animation: {
+        "accordion-down": "accordion-down 0.2s ease-out",
+        "accordion-up": "accordion-up 0.2s ease-out",
+        "collapsible-down": "collapsible-down 0.2s ease-in-out",
+        "collapsible-up": "collapsible-up 0.2s ease-in-out",
+      },
+      height: {
+        '45dvh': '45dvh',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    animate,
+    require("tailwind-scrollbar"),
+  ],
 }

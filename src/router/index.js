@@ -10,47 +10,44 @@ const router = createRouter({
       component: HomeView
     },
     {
-      path: '/a-propos',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
+      path: '/contact',
+      name : 'contact',
+      component: () => import('../views/ContactView.vue')
     },
-    // {
-    //   path: '/contact',
-    //   name : 'contact',
-    //   component: () => import('../views/ContactView.vue')
-    // }
-    // {
-    //   path: '/signup',
-    //   name: 'signup',
-    //   component: () => import('../views/SignupView.vue')
-    // },
-     {
-       path: '/login',
-       name: 'login',
-       component: () => import('../views/LoginView.vue')
-     },
-    // {
-    //   path: '/projet',
-    //   name: 'project',
-    //   component: () => import('../views/ProjectView.vue')
-    // },
+    {
+      path: '/signup',
+      name: 'signup',
+      component: () => import('../views/SignupView.vue')
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('../views/LoginView.vue')
+    },
+    {
+      path: '/projets',
+      name: 'project',
+      component: () => import('../views/ProjectView.vue')
+    },
+    {
+      path: '/evenements',
+      name: 'event',
+      component: () => import('../views/EventView.vue')
+    },
+    {
+      path: '/rejoindre',
+      name: 'join',
+      component: () => import('../views/JoinUsView.vue')
+    },
     // {
     //   path: '/projet/:id',
     //   name: 'project',
     //   component: () => import('../views/ProjectIdView.vue')
     // },
     // {
-    //   path: '/evenement',
-    //   name: 'event',
-    //   component: () => import('../views/EventView.vue')
-    // }
-    // {
     //   path: '/evenement/:id',
     //   name: 'event',
-    //   component: () => import('../views/EventIdView.vue')
+    //   component: () => import('../views/EventView.vue')
     // }
   ]
 })
