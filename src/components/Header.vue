@@ -18,7 +18,7 @@ onMounted(() => {
         <img src="@/assets/icones/logo.svg" alt="Vue logo" class="logo" width="125" height="125" />
       </router-link>
       <button @click="showNav = !showNav" class="md:hidden">
-        <img src="@/assets/icones/burger-menu.svg" alt="Menu Icon" class="w-10 h-10" />
+        <img src="@/assets/icones/burger-menu.svg" alt="Menu Icon" class="w-8 h-8" />
       </button>
       <transition name="slide" mode="out-in">
         <nav v-if="showNav" class="fixed bg-black inset-0 transform md:translate-x-0 md:static flex flex-col md:flex-row gap-4 py-3 md:gap-1 md:py-0 md:bg-transparent md:w-full justify-center md:justify-start">            <div class="absolute md:hidden top-0 right-0 p-6">
