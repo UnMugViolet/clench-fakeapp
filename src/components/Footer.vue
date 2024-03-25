@@ -12,17 +12,19 @@
             </router-link>
         </div>
         <div class="flex flex-col md:flex-row md:justify-between items-center gap-4 py-5">
-            <div class="flex flex-col gap-4 w-full md:w-1/2 pb-10">
+            <div class="flex flex-col gap-4 w-full md:w-1/2">
                 <h3 class="text-3xl font-semibold text-center md:text-left">Donnez votre argent à Julick</h3>
-                <p class="text-zinc-500 text-base max-w-xl mb-5 text-center md:text-left">
-                    Le Lorem Ipsum est simplement du faux texte employé dans la
-                    composition et la mise en page avant impression.
-                </p>
-                <Button type="submit" variant="link" class="flex justify-start px-0 py-1 text-sm">
-                    <router-link to="/contact">
-                        Nous contacter
-                    </router-link>
-                </Button>
+                <div>
+                    <p class="text-zinc-500 text-base max-w-xl mb-5 text-center md:text-left">
+                        Le Lorem Ipsum est simplement du faux texte employé dans la
+                        composition et la mise en page avant impression.
+                    </p>
+                    <Button type="submit" variant="link" class="flex justify-start px-0 py-1 text-sm">
+                        <router-link to="/contact">
+                            Nous contacter
+                        </router-link>
+                    </Button>
+                </div>
             </div>
             <div class="flex flex-col gap-4 text-center md:text-left">
                 <h4 class="text-base md:text-2xl font-semibold">Inscrivez vous à notre Newsletter !</h4>
