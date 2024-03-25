@@ -19,7 +19,7 @@
                         Le Lorem Ipsum est simplement du faux texte employé dans la
                         composition et la mise en page avant impression.
                     </p>
-                    <Button type="submit" variant="link" class="flex justify-start px-0 py-1 text-sm">
+                    <Button type="submit" variant="link" class="flex mb-5 md:mb-0 justify-center md:justify-start px-0 py-1 text-sm w-full ">
                         <router-link to="/contact">
                             Nous contacter
                         </router-link>
