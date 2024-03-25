@@ -12,7 +12,7 @@
     description="Inscrivez-vous pour participer à des évènements et publier votre travail. Ce soir j'ai mangé des pâtes bolognaise." />
   <section class="flex flex-col md:flex-row py-6 md:py-14">
     <div class="flex flex-col justify-start mb-10 md:mb-0 md:w-1/2">
-      <h1 class="text-3xl md:text-5xl font-bold">Créer votre compte </h1>
+      <h1 class="text-3xl md:text-5xl font-bold">Remplissez le formulaire d'inscription </h1>
       <img src="@/assets/icones/users.svg" alt="Authentication" class="flex justify-start w-24 py-8" />
       <h2 class="font-semibold mb-2">Informations</h2>
       <p class="text-base text-gray-500 w-11/12 md:w-7/12">
