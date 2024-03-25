@@ -5,10 +5,10 @@
 
 </script>
 <template>
-    <footer class="flex flex-col w-full px-16 pb-4 pt-12 gap-8">
-        <div class="">
+    <footer class="flex flex-col w-full px-4 md:px-16 pb-4 pt-20 md:pt-28 gap-8">
+        <div class="flex justify-center md:justify-start">
             <router-link to="/">
-                <img src="@/assets/icones/logo.svg" alt="Vue logo" width="175" height="175" />
+                <img src="@/assets/icones/logo.svg" alt="Vue logo" class="w-36 md:w-44" />
             </router-link>
         </div>
         <div class="flex flex-col justify-between items-center py-5 lg:flex-row">
@@ -29,7 +29,9 @@
                 <div class="flex flex-col lg:flex-row lg:items-center gap-4">
                     <Input id="email" type="email" placeholder="Email" class="bg-white text-zinc-500"/>
                     <Button type="submit" variant="outline" class="px-6">
-                        S'inscrire
+                        <router-link to="/signup">
+                            S'inscrire
+                        </router-link>
                     </Button>
                 </div>
             </div>

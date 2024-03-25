@@ -5,7 +5,7 @@
     "description": "Nuit numérique, pizza, bière, code, la belle vie quoi @bibine",
     "date": "Mars 2024",
     "imageUrl": "/src/assets/images/nuit-numerique-affiche.jpg",
-    "urlEvent": "/evenement"
+    "urlEvent": "/evenements"
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "description": "Soirée dégustation de vin, grosse vinasse dans le gosier là @bibine",
     "date": "Mars 2024",
     "imageUrl": "/src/assets/images/made-colored-affiche.png",
-    "urlEvent": "/evenement"
+    "urlEvent": "/evenements"
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "description": "The React Framework - created and maintained by @vercel",
     "date": "Mars 2024",
     "imageUrl": "/src/assets/images/event-le-jour-et-la-nuit.png",
-    "urlEvent": "/evenement"
+    "urlEvent": "/evenements"
   },
   {
     "id": 4,
@@ -29,6 +29,6 @@
     "description": "Open Air - Dans un parc on est bien là @open-air",
     "date": "Avril 2024",
     "imageUrl": "/src/assets/images/made-affiche.jpg",
-    "urlEvent": "/evenement"
+    "urlEvent": "/evenements"
   }
 ]

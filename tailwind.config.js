@@ -12,6 +12,18 @@ module.exports = {
     './app/**/*.{js,jsx,vue}',
     './src/**/*.{js,jsx,vue}',
 	],
+
+  safelist: [
+    'dark',
+    'col-start-1', 'col-end-2', 'row-start-1', 'row-end-6',
+    'col-start-1', 'col-end-2', 'row-start-6', 'row-end-10',
+    'col-start-1', 'col-end-3', 'row-start-10', 'row-end-13',
+    'col-start-2', 'col-end-3', 'row-start-5', 'row-end-10',
+    'col-start-2', 'col-end-4', 'row-start-1', 'row-end-5',
+    'col-start-3', 'col-end-5', 'row-start-9', 'row-end-13',
+    'col-start-3', 'col-end-4', 'row-start-5', 'row-end-9',
+    'col-start-4', 'col-end-5', 'row-start-1', 'row-end-9',
+  ],
   
   theme: {
     container: {
@@ -92,5 +104,8 @@ module.exports = {
       },
     },
   },
-  plugins: [animate],
+  plugins: [
+    animate,
+    require("tailwind-scrollbar"),
+  ],
 }
