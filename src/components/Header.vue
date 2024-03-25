@@ -4,6 +4,12 @@ import Button from '@/components/ui/button/Button.vue';
 
 const showNav = ref(false);
 
+const toggleNav = () => {
+  if (window.matchMedia("(max-width: 768px)").matches) {
+    showNav.value = !showNav.value;
+  }
+};
+
 onMounted(() => {
   if (window.matchMedia("(min-width: 768px)").matches) {
     showNav.value = true;
@@ -17,7 +23,7 @@ onMounted(() => {
       <router-link to="/">
         <img src="@/assets/icones/logo.svg" alt="Vue logo" class="logo" width="125" height="125" />
       </router-link>
-      <button @click="showNav = !showNav" class="md:hidden">
+      <button @click="toggleNav" class="md:hidden">
         <img src="@/assets/icones/burger-menu.svg" alt="Menu Icon" class="w-8 h-8" />
       </button>
       <transition name="slide" mode="out-in">
@@ -25,16 +31,16 @@ onMounted(() => {
             <div class="absolute md:hidden top-0 right-0 p-6">
               <img src="@/assets/icones/cross.svg" alt="Close Icon" class="w-5 h-5" @click="showNav = false" />
             </div>
-            <Button @click="showNav = !showNav" variant="link">
+            <Button @click="toggleNav" variant="link">
                 <router-link to="/projets">Projets</router-link>
             </Button>
-            <Button @click="showNav = !showNav" variant="link">
+            <Button @click="toggleNav" variant="link">
                 <router-link to="/evenements">Evenements</router-link>
             </Button>
-            <Button @click="showNav = !showNav" variant="link">
+            <Button @click="toggleNav" variant="link">
                 <router-link to="/rejoindre">Nous rejoindre</router-link>
             </Button>
-            <router-link to="/login" @click="showNav = !showNav"  class="flex items-center justify-center md:justify-end gap-2 text-white md:hidden">
+            <router-link to="/login" @click="toggleNav"  class="flex items-center justify-center md:justify-end gap-2 text-white md:hidden">
               <p>Compte</p>
               <img src="@/assets/icones/user.svg" alt="User Icon" class="w-8 h-8 xl:w-10 xl:h-10" />
             </router-link>
