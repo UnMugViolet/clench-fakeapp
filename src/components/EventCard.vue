@@ -1,24 +1,27 @@
 <template>
     <div class="flex border border-white rounded-md mt-6 p-4 gap-4 items-center min-w-[500px]">
-        <img class="w-36" src="@/assets/images/jdln-affiche.jpg" alt="">
+        <img class="w-36" :src="urlImage" alt="">
         <div class="flex flex-col gap-1">
-            <p class="font-semibold">@beuverie</p>
-            <p>The React Framework - created and maintained by @vercel</p>
+            <p class="font-semibold">{{title}}</p>
+            <p>{{ description }}</p>
             <div class="flex gap-2">
                 <img src="@/assets/icones/calendar.svg" alt="">
-                <p class="text-gray-500 text-base">Joined Mars 2024</p>
+                <p class="text-gray-500 text-base">Joined {{date}}</p>
             </div>
             <div class="flex gap-4 mt-4">
-                <ThinMainButton text-button="Découvrir"/>
-                <ThinMainButton text-button="Résevation"/>
+                <Button variant="outline">Découvrir<Button/>
             </div>
         </div>
     </div>
 </template>
 
 <script setup>
-import ThinMainButton from './ThinMainButton.vue';
+import Button from "@/components/ui/button/Button.vue";
 
-
-
+const props = defineProps([
+        'urlImage',
+        'title',
+        'description',
+        'date',
+    ]); 
 </script>

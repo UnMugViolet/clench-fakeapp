@@ -25,8 +25,8 @@
 
 <template>
   <h2 class="text-3xl font-semibold mb-11">Prochains événements</h2>
-  <div class="flex flex-col md:flex-row w-full gap-10 md:gap-20">
-    <div class="w-full md:w-1/2">
+  <div class="flex flex-col lg:flex-row w-full gap-10 md:gap-20">
+    <div class="w-full">
       <Carousel
         :opts="{
           align: 'start',
@@ -51,11 +51,11 @@
         <CarouselNext class="hidden md:flex"/>
       </Carousel>
     </div>
-    <div class="w-full md:w-1/2 flex items-center">
+    <div class="w-full flex items-center">
       <div class="ml-3">
-        <p class="xl:mr-40 text-base md:text-lg">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+        <p class="text-base md:text-lg">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
         <router-link to="/evenements">
-          <Button variant="outline" class="mt-14">
+          <Button variant="outline" class="mt-6">
             Voir les événements
           </Button>
         </router-link>
