@@ -19,4 +19,6 @@
 <script setup>
 import ThinMainButton from './ThinMainButton.vue';
 
+
+
 </script>

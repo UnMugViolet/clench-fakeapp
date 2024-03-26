@@ -4,6 +4,7 @@
     "title": "@beuverie",
     "description": "Nuit numérique, pizza, bière, code, la belle vie quoi @bibine",
     "date": "Mars 2024",
+    "formated_date" : "26/03/2024",
     "imageUrl": "/src/assets/images/nuit-numerique-affiche.jpg",
     "urlEvent": "/evenements"
   },
@@ -12,6 +13,7 @@
     "title": "@festoche",
     "description": "Soirée dégustation de vin, grosse vinasse dans le gosier là @bibine",
     "date": "Mars 2024",
+    "formated_date" : "29/03/2024",
     "imageUrl": "/src/assets/images/made-colored-affiche.png",
     "urlEvent": "/evenements"
   },
@@ -20,6 +22,7 @@
     "title": "@beuverie",
     "description": "The React Framework - created and maintained by @vercel",
     "date": "Mars 2024",
+    "formated_date" : "19/03/2024",
     "imageUrl": "/src/assets/images/event-le-jour-et-la-nuit.png",
     "urlEvent": "/evenements"
   },
@@ -28,6 +31,7 @@
     "title": "@festoche",
     "description": "Open Air - Dans un parc on est bien là @open-air",
     "date": "Avril 2024",
+    "formated_date" : "19/04/2024",
     "imageUrl": "/src/assets/images/made-affiche.jpg",
     "urlEvent": "/evenements"
   }
