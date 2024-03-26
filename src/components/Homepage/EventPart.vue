@@ -53,9 +53,9 @@
     </div>
     <div class="w-full md:w-1/2 flex items-center">
       <div class="ml-3">
-        <p class="md:mr-40 text-base md:text-lg">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+        <p class="text-base md:text-lg">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
         <router-link to="/evenements">
-          <Button variant="outline" class="mt-14">
+          <Button variant="outline" class="mt-6">
             Voir les événements
           </Button>
         </router-link>

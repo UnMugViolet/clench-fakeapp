@@ -4,7 +4,7 @@
 </script>
 
 <template>
-  <div class="flex flex-col 2xl:items-center px-24">
+  <div class="flex flex-col 2xl:items-center">
     <HeroText 
       emoji="🍾"
       subtitle="L’application qui facilite votre vie éstudiantine"

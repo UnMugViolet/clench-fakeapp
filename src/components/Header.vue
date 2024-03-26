@@ -19,7 +19,7 @@ onMounted(() => {
 
 <template>
   <header class="flex flex-col md:flex-row items-center w-full h-full md:h-10justify-between md:py-14 px-4 md:px-16 py-8">
-    <div class="flex flex-row justify-between md:justify-start gap-4 w-full ">
+    <div class="flex flex-row items-center justify-between md:justify-start gap-4 w-full ">
       <router-link to="/">
         <img src="@/assets/icones/logo.svg" alt="Vue logo" class="logo" width="125" height="125" />
       </router-link>
