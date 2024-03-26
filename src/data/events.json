@@ -5,8 +5,13 @@
     "description": "Nuit numérique, pizza, bière, code, la belle vie quoi @bibine",
     "date": "Mars 2024",
     "formatedDate": "2024-03-27",
-    "imageUrl": "/src/assets/images/nuit-numerique-affiche.jpg",
-    "urlEvent": "/evenements"
+    "imageUrl": [
+      "/src/assets/images/event_1.1.png",
+      "/src/assets/images/event1.2.png",
+      "/src/assets/images/event1.3.png"
+    ],
+    "urlEvent": "/evenements",
+    "thumbnail": "/src/assets/images/event_1.1.png"
   },
   {
     "id": 2,
@@ -23,8 +28,26 @@
     "description": "The React Framework - created and maintained by @vercel",
     "date": "Février 2024",
     "formatedDate": "2024-02-29",
-    "imageUrl": "/src/assets/images/event-le-jour-et-la-nuit.png",
-    "urlEvent": "/evenements"
+    "imageUrl": [
+      "/src/assets/images/event2.1.png",
+      "/src/assets/images/event2.2.png",
+      "/src/assets/images/event2.3.png"
+    ],
+    "urlEvent": "/evenements",
+    "thumbnail": "/src/assets/images/event2.1.png"
+  },
+  {
+    "id": 3,
+    "title": "@restauration",
+    "description": "Restaurant branché, pour y découvrir des créations stylés @onestbien",
+    "date": "Avril 2024",
+    "imageUrl": [
+      "/src/assets/images/event3.1.png",
+      "/src/assets/images/event3.2.png",
+      "/src/assets/images/event3.3.png"
+    ],
+    "urlEvent": "/evenements",
+    "thumbnail": "/src/assets/images/event3.1.png"
   },
   {
     "id": 4,
@@ -32,7 +55,12 @@
     "description": "Open Air - Dans un parc on est bien là @open-air",
     "date": "Avril 2024",
     "formatedDate": "2024-04-01",
-    "imageUrl": "/src/assets/images/made-affiche.jpg",
-    "urlEvent": "/evenements"
+    "imageUrl": [
+      "/src/assets/images/event4.1.png",
+      "/src/assets/images/event4.2.png",
+      "/src/assets/images/event4.3.png"
+    ],
+    "urlEvent": "/evenements",
+    "thumbnail": "/src/assets/images/event4.1.png"
   }
 ]
