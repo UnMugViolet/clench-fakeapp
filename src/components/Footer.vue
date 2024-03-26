@@ -26,9 +26,9 @@
                     </Button>
                 </div>
             </div>
-            <div class="flex lg:flex-col gap-4 mt-10 lg:mt-0 lg:max-w-full max-w-xl">
-                <h4 class="text-2xl font-semibold w-1/2 lg:w-full">Inscrivez vous à notre Newsletter !</h4>
-                <div class="flex flex-col lg:flex-row lg:items-center gap-4">
+            <div class="flex flex-col gap-4 text-center md:text-left">
+                <h4 class="text-base md:text-2xl font-semibold">Inscrivez vous à notre Newsletter !</h4>
+                <div class="flex items-center gap-4">
                     <Input id="email" type="email" placeholder="Email" class="bg-white text-zinc-500"/>
                     <Button type="submit" variant="outline" class="px-6">
                         <router-link to="/signup">
