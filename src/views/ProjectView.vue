@@ -41,7 +41,7 @@ const closeModal = () => {
     <transition name="fade">
       <div v-if="showModal" class="fixed inset-0 flex items-center justify-center z-10">
         <div @click="closeModal" class="absolute inset-0 bg-black opacity-75"></div>
-        <div class="bg-white w-10/12 h-5/6 flex flex-col-reverse md:flex-row z-20">
+        <div class="bg-white w-10/12 h-5/6 flex flex-col-reverse md:flex-row z-20 rounded-md">
           <div class="w-full h-1/2 md:h-full md:w-1/2 overflow-y-scroll scrollbar-none">
             <img v-for="(image, index) in currentProject.images" :key="index" :src="image" alt="Project Image" class="w-full">
           </div>
