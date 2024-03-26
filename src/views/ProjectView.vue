@@ -52,7 +52,7 @@ const closeModal = () => {
                 &#10005;
             </button>
             <div class="py-14 px-8">
-              <h2 class="text-black text-4xl font-semibold">{{ currentProject.title }}</h2>
+              <h2 class="text-black text-2xl md:text-4xl font-semibold">{{ currentProject.title }}</h2>
               <div class="text-black" v-html="currentProject.description"></div>
             </div>
           </div>

@@ -11,17 +11,19 @@
                 <img src="@/assets/icones/logo.svg" alt="Vue logo" class="w-36 md:w-44" />
             </router-link>
         </div>
-        <div class="flex flex-col justify-between items-center py-5 lg:flex-row">
-            <div class="flex flex-col gap-4 lg:w-3/4">
-                <h3 class="text-3xl font-semibold">Donnez votre argent à Julick</h3>
-                <p class="text-zinc-500 text-base max-w-xl">
-                    Le Lorem Ipsum est simplement du faux texte employé dans la
-                    composition et la mise en page avant impression.
-                </p>
-                <div class="lg:mt-5">
-                    <router-link to="/contact"
-                    class="border-b border-transparent transition duration-300 border-white hover:border-white">Nous
-                    contacter</router-link>
+        <div class="flex flex-col md:flex-row md:justify-between items-center gap-4 py-5">
+            <div class="flex flex-col gap-4 w-full md:w-1/2">
+                <h3 class="text-3xl font-semibold text-center md:text-left">Donnez votre argent à Julick</h3>
+                <div>
+                    <p class="text-zinc-500 text-base max-w-xl mb-5 text-center md:text-left">
+                        Le Lorem Ipsum est simplement du faux texte employé dans la
+                        composition et la mise en page avant impression.
+                    </p>
+                    <Button type="submit" variant="link" class="flex mb-5 md:mb-0 justify-center md:justify-start px-0 py-1 text-sm w-full ">
+                        <router-link to="/contact">
+                            Nous contacter
+                        </router-link>
+                    </Button>
                 </div>
             </div>
             <div class="flex lg:flex-col gap-4 mt-10 lg:mt-0 lg:max-w-full max-w-xl">
