@@ -5,9 +5,9 @@
       <div v-for="(item, index) in sortedItems" :key="index">
           <EventCard 
             :title="item.title"
-            :description="item.description"
+            :description="item.subtitle"
             :date="item.date"
-            :imageUrl="item.imageUrl"
+            :imageUrl="item.thumbnail"
             :urlEvent="item.urlEvent"
             @toggleModal="handleToggleModal(item)"
           />
