@@ -1,19 +1,17 @@
 <script setup>
   import Input from '@/components/ui/input/Input.vue';
   import Button from '@/components/ui/button/Button.vue';
+  import InfosForm from '@/components/Forms/InfosForm.vue';
 </script>
 
 <template>
   <section class="flex flex-col md:flex-row py-6 md:py-14">
-    <div class="flex flex-col justify-start mb-10 md:mb-0 md:w-1/2">
-      <h1 class="text-3xl md:text-5xl font-bold">Créer votre compte </h1>
-      <img src="@/assets/icones/users.svg" alt="Authentication" class="flex justify-start w-24 py-8" />
-      <h2 class="font-semibold mb-2">Informations</h2>
-      <p class="text-base text-gray-500 w-11/12 md:w-7/12">
-        Une fois votre compte créer vous pourrez vous inscrire à des évènements et publier votre travail.
-        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression.
-      </p>
-    </div>
+    <InfosForm
+      subtitle="Informations"
+      title="Créer votre compte"
+      description="Une fois votre compte créer vous pourrez vous inscrire à des évènements et publier votre travail.
+        Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression."
+    />
     <form class="w-full md:w-1/2 md:pl-20">
       <div class="flex flex-col md:flex-row md:items-center md:gap-3 mb-3 md:mb-4">
         <label for="lastname" class="text-sm md:text-base text-left md:text-right md:w-36">Nom de famille</label>
