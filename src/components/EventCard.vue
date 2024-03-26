@@ -1,5 +1,5 @@
 <template>
-    <div class="flex w-full md:w-[500px] border border-white rounded-md mt-6 p-4 gap-4 items-center">
+    <div class="flex flex-col md:flex-row w-full md:w-[500px] border border-white rounded-md mt-6 p-4 gap-4 items-center">
         <div class="w-60 h-56 bg-cover bg-center rounded-md" :style="{ backgroundImage: `url(${imageUrl})` }"></div>
         <div class="flex flex-col gap-1">
             <p class="font-semibold">{{ title }}</p>
