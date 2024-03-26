@@ -9,7 +9,7 @@
                 <p class="text-gray-500 text-base">Joined {{date}}</p>
             </div>
             <div class="flex gap-4 mt-4">
-                <Button variant="outline">Découvrir<Button/>
+                <Button variant="outline">Découvrir</Button>
             </div>
         </div>
     </div>

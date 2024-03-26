@@ -1,9 +1,3 @@
-<script setup>
-import EventCard from "@/components/EventCard.vue";
-
-const props = defineProps(['titleEvent']);
-</script>
-
 <template>
   <div>
     <h2 class="text-4xl font-semibold">{{ props.titleEvent }}</h2>
@@ -37,6 +31,4 @@ const getItemById = (id) => {
 const sortedItems = computed(() => {
   return [...items.value].sort((a, b) => a.id - b.id);
 });
-
-const props = defineProps(['titleEvent']);
 </script>
