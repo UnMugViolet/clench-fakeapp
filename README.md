@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/unmugviolet/exam-framework-css/badge)](https://www.codefactor.io/repository/github/unmugviolet/exam-framework-css)
+
 # exam-framework-css
 
 This template should help get you started developing with Vue 3 in Vite.
