@@ -8,7 +8,7 @@ import Button from '@/components/ui/button/Button.vue';
     <footer class="flex flex-col w-full px-4 md:px-16 pb-4 pt-20 md:pt-28 gap-8">
         <div class="flex justify-center md:justify-start">
             <router-link to="/">
-                <img src="@/assets/icones/logo.svg" alt="Vue logo" class="w-36 md:w-44" />
+                <img src="/ressources/icones/logo.svg" alt="Vue logo" class="w-36 md:w-44" />
             </router-link>
         </div>
         <div class="flex flex-col md:flex-row md:justify-between items-center gap-12 py-5">

@@ -5,7 +5,7 @@
             <p class="font-semibold">{{ title }}</p>
             <p>{{ description }}</p>
             <div class="flex gap-2">
-                <img src="@/assets/icones/calendar.svg" alt="">
+                <img src="/ressources/icones/calendar.svg" alt="">
                 <p class="text-gray-500 text-base">Prévu le {{ date }}</p>
             </div>
             <div class="flex gap-4 mt-4">

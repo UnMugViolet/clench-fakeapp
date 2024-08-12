@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="w-full md:w-1/2">
-      <img src="@/assets/images/projets.png" alt="project" class="w-full"/>
+      <img src="/ressources/images/projets.png" alt="project" class="w-full"/>
     </div>
   </div>
 </template>

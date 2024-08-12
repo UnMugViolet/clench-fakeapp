@@ -5,7 +5,7 @@
       <h4 class="font-semibold mb-2 md:text-base text-sm">{{title}}</h4>
       <p class="mb-1 md:text-base text-sm">{{description}}</p>
       <router-link :to="urlEvent" class="flex gap-2">
-        <img src="/src/assets/icones/calendar.svg" alt="calendar-icon" />
+        <img src="/ressources/icones/calendar.svg" alt="calendar-icon" />
         <p class="text-zinc-500 md:text-base text-sm">Prévu en {{ date }}</p>
       </router-link>
     </div>
